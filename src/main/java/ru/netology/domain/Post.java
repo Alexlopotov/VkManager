@@ -31,18 +31,23 @@ public class Post {
     public int getOwnerId() {
         return ownerId;
     }
-    public void setOwnerId (int ownerId) {
+
+    public void setOwnerId(int ownerId) {
         this.ownerId = ownerId;
     }
-    public int getFromId () {
+
+    public int getFromId() {
         return fromId;
     }
-    public void setFromId (int fromId) {
+
+    public void setFromId(int fromId) {
         this.fromId = fromId;
     }
+
     public int getDate() {
         return date;
     }
+
     public void setDate(int date) {
         this.date = date;
     }
